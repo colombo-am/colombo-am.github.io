@@ -1,0 +1,12 @@
+[
+  {
+    "url": "armenia-new-builds/",
+    "repo": "https://github.com/colombo-am/armenia-new-builds",
+    "title": { "en": "New builds in Armenia", "hy": "Նորակառույցներ Հայաստանում" },
+    "description": {
+      "en": "Every public new-building project in Armenia on one map: prices per m², construction stage, developer ratings with court records, ownership connections, and how the market changes over time.",
+      "hy": "Հայաստանի բոլոր հրապարակային նորակառույցները մեկ քարտեզի վրա՝ 1 մ²-ի գներ, շինարարության փուլ, կառուցապատողների վարկանիշ դատական գործերով, սեփականության կապեր և շուկայի փոփոխությունը ժամանակի ընթացքում։"
+    },
+    "tags": { "en": ["Map", "Analytics", "SQLite"], "hy": ["Քարտեզ", "Վերլուծություն", "SQLite"] }
+  }
+]

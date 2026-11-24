@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colombo · Open data about Armenia</title>
+  <meta name="description" content="Open data projects that make information about Armenia transparent and reusable.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Noto+Sans+Armenian:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand-row">
+        <h1>Colombo</h1>
+        <button type="button" class="lang" id="lang" aria-label="Switch language">EN</button>
+      </div>
+      <p class="lead" data-t="lead"></p>
+    </div>
+  </header>
+  <main class="wrap">
+    <h2 data-t="projects"></h2>
+    <ul class="projects" id="projects"></ul>
+    <p class="muted" id="error" hidden data-t="error"></p>
+  </main>
+  <footer class="wrap muted">
+    <p data-t="footer"></p>
+    <p><a href="https://github.com/colombo-am">github.com/colombo-am</a></p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
